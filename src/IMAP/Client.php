@@ -735,4 +735,15 @@ class Client {
     public function getFolderPath(){
         return $this->active_folder;
     }
+    
+    /**
+     * Set the current active folder
+     *
+     * @return Folder
+     */
+    public function setFolderPath($value){
+        return $this->active_folder = $value;
+    }
+    
+    
 }
